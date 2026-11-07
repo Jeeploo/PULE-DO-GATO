@@ -1,0 +1,56 @@
+# Credenciais de ambiente; exemplos devem conter apenas valores fictícios
+.env
+.env.*
+!.env.example
+
+# Ambientes virtuais e caches Python
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Dependências e artefatos de build do frontend
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.tsbuildinfo
+
+# Configurações pessoais de IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+
+# Configuração e credenciais locais de provedores
+.aws/
+.azure/
+.gcloud/
+.config/gcloud/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.cache/
+
+# Metadados do sistema operacional
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
